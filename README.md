@@ -12,3 +12,7 @@ gatsby new gatsby-starter-framer-x https://github.com/simulieren/gatsby-starter-
 ## Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/simulieren/gatsby-starter-framer-x)
+
+## Demo
+
+https://gatsby-starter-framer-x.netlify.com/
