@@ -10,7 +10,9 @@
     "gatsby": "^1.9.119",
     "gatsby-link": "^1.6.28",
     "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-typescript": "^1.4.10"
+    "gatsby-plugin-typescript": "^1.4.10",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "keywords": [
     "gatsby, typescript"
@@ -24,6 +26,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "framer": "^0.10.10",
     "prettier": "^1.8.2"
   },
   "contributors": [

@@ -1,0 +1,19 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.4.16"
+	},
+	"peerDependencies": {
+		"framer": "^0.10",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"framer": {
+		"id": "2ac6dc1c-8178-4caa-bed2-2a83ed876da4"
+	},
+	"author": "Simon Halimonov",
+	"dependencies": {
+		"@framer/framer.examples": "^1.5.0"
+	}
+}
