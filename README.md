@@ -6,7 +6,7 @@ For an overview of the project structure please refer to the [Gatsby documentati
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
 ```
-gatsby new gatsby-starter-typescript https://github.com/simulieren/gatsby-starter-framer-x
+gatsby new gatsby-starter-framer-x https://github.com/simulieren/gatsby-starter-framer-x
 ```
 
 ## Deploy
