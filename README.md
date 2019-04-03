@@ -6,9 +6,9 @@ For an overview of the project structure please refer to the [Gatsby documentati
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
 ```
-gatsby new gatsby-starter-typescript https://github.com/haysclark/gatsby-starter-typescript
+gatsby new gatsby-starter-typescript https://github.com/simulieren/gatsby-starter-framer-x
 ```
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/haysclark/gatsby-starter-typescript)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/simulieren/gatsby-starter-framer-x)
