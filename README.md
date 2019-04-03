@@ -2,13 +2,11 @@
 
 The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default) converted to [TypeScript](https://www.typescriptlang.org/) and [Framer X](https://www.framer.com).
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
-
-## Demo
+## 💻 Demo
 
 https://gatsby-starter-framer-x.netlify.com/
 
-## Quick Start - Installation
+## 🚀 Quick Start - Installation
 
 Install the GatsbyJS CLI.
 
@@ -33,7 +31,9 @@ Start development server.
 npm run develop
 ```
 
-## Getting started
+> ℹ For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+
+## 👨‍💻 Getting started
 
 After you have installed this starter you can do the following things.
 
@@ -53,9 +53,9 @@ npm run develop
 npm run build
 ```
 
-## Getting started with Framer X
+## Getting started with Framer X code components
 
-Easy way get started with your first Framer X Code component:
+Easy way get started with your first Framer X code component:
 
 1. Create a new component file in `src/framerx.framerfx/code/` or copy the existing one. This is where all code components from Framer X are.
 1. Import it in `src/framerx/index.ts` and export it. This file is a barrel file, this means it collects all components in one place so they can be easily reimported from here.
@@ -91,7 +91,7 @@ Easy way get started with your first Framer X Code component:
     
 > ⚠ Note: If you want to build your website you should comment out or delete all functions imported from `framer`.
 
-## Troubleshooting
+## ⚠ Troubleshooting
 
 There is a build error when trying to build components that use features like `PropertyControls` or `ControlType` from the `framer` package. They currently only work during `npm run develop`. This error is caused during the server side rendering process.
 
