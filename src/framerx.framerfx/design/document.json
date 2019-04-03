@@ -23,7 +23,7 @@
             "clip" : true,
             "codeComponentIdentifier" : ".\/ExampleComponent.tsx_ExampleComponent",
             "codeComponentProps" : {
-              "text" : "Hello World!"
+
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,

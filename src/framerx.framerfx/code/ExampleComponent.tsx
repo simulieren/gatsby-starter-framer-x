@@ -27,9 +27,9 @@ export class ExampleComponent extends React.Component<Props> {
 
   // Add Framer UI for this component (in the properties panel)
   // https://framer.com/learn/docs/components#code
-  static propertyControls: PropertyControls<Props> = {
-    text: { type: ControlType.String, title: "Text" }
-  };
+  // static propertyControls: PropertyControls<Props> = {
+  //  text: { type: ControlType.String, title: "Text" }
+  // };
 }
 
 // Define some standard CSS for your component
