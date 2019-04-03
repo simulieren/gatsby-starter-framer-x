@@ -4,10 +4,31 @@ The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default)
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+## Quick Start - Installation
+
+Install the GatsbyJS CLI.
+
+```
+npm i -g gatsby-cli
+```
+
+Install this starter (assuming Gatsby is installed) by running from your CLI.
 ```
 gatsby new gatsby-starter-framer-x https://github.com/simulieren/gatsby-starter-framer-x
 ```
+
+Change directories into site folder.
+
+```
+cd gatsby-starter-framer-x
+```
+
+Start development server.
+
+```
+npm run develop
+```
+
 
 ## Demo
 
@@ -21,7 +42,7 @@ After you have installed this starter you can do the following things.
 
 You can open `src/framerx.framerfx` like a normal Framer X project and do everything Framer X has to offer. All code components from framer are saved in `src/framerx.framerfx/code/` and you can access them easily with any code editor.
 
-### Run a local development environment
+### Run a local development server
 
 ```
 npm run develop 
