@@ -4,6 +4,10 @@ The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default)
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
 
+## Demo
+
+https://gatsby-starter-framer-x.netlify.com/
+
 ## Quick Start - Installation
 
 Install the GatsbyJS CLI.
@@ -28,11 +32,6 @@ Start development server.
 ```
 npm run develop
 ```
-
-
-## Demo
-
-https://gatsby-starter-framer-x.netlify.com/
 
 ## Getting started
 
