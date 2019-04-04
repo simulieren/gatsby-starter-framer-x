@@ -27,6 +27,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -55,6 +56,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "eJAzzzzBT",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
