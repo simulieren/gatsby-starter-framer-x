@@ -58,7 +58,7 @@ npm run build
 Easy way get started with your first Framer X code component:
 
 1. Create a new component file in `src/framerx.framerfx/code/` or copy the existing one. This is where all code components from Framer X are.
-1. Import it in `src/framerx/index.ts` and export it. This file is a barrel file, this means it collects all components in one place so they can be easily reimported from here.
+1. Import it in `src/framerx/index.ts` and export it. This file is a barrel file, this means it collects all components in one place so they can be easily reimported from here. *This is optional and could be skipped because you can also import the file directly in the page you want it to appear.*
     ```
     // src/framerx/index.ts
     
