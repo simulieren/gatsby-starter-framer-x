@@ -1,6 +1,6 @@
 # gatsby-starter-framer-x
 
-The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default) converted to [TypeScript](https://www.typescriptlang.org/) and [Framer X](https://www.framer.com).
+The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default) converted to [TypeScript](https://www.typescriptlang.org/) with realtime [Framer X](https://www.framer.com) component support.
 
 ## 💻 Demo
 
