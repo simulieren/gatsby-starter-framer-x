@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Link from 'gatsby-link'
-import { ExampleComponent } from '../framerx';
+import { ExampleComponent } from '../framerx/ExampleComponent';
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
 // to generate all types from graphQL schema
@@ -26,7 +26,7 @@ export default class extends React.Component<IndexPageProps, {}> {
           Welcome to your new{' '}
           <strong>{this.props.data.site.siteMetadata.title}</strong> site.
         </p>
-        <ExampleComponent text="This is a Framer X Component"/>
+        <ExampleComponent text="This is a Framer X Component being rendered"/>
         <p>Now go build something great.</p>
         <Link to="/page-2/">Go to page 2</Link>
       </div>

@@ -57,20 +57,12 @@ npm run build
 
 Easy way get started with your first Framer X code component:
 
-1. Create a new component file in `src/framerx.framerfx/code/` or copy the existing one. This is where all code components from Framer X are.
-1. Import it in `src/framerx/index.ts` and export it. This file is a barrel file, this means it collects all components in one place so they can be easily reimported from here. *This is optional and could be skipped because you can also import the file directly in the page you want it to appear.*
-    ```
-    // src/framerx/index.ts
-    
-    import { ExampleComponent } from "../framerx.framerfx/code/ExampleComponent";
-
-    export { ExampleComponent }
-    ```
+1. Create a new component file in `src/framerx/` or copy the existing `ExampleComponent`.
 1. Import it in a page like `src/pages/index.tsx` and use it like an ordinary React component:
     ```
     // src/pages/index.tsx
     
-    import { ExampleComponent } from '../framerx'; // This is the barrel file used for collecting all components
+    import { ExampleComponent } from '../framerx/ExampleComponent';
     
     export default class extends React.Component<IndexPageProps, {}> {
       constructor(props: IndexPageProps, context: any) {
@@ -87,13 +79,28 @@ Easy way get started with your first Framer X code component:
       }
     }
     ```
-1. If you do any changes to your code component, it will be reflected in the browser and Framer X at the same time.
-    
-> ⚠ Note: If you want to build your website you should comment out or delete all functions imported from `framer`.
+1. Import it in your Framer X code component `src/framerx.framerfx/code/ExampleComponent`:
+    ```
+    // Import the component with types for props
+    import { ExampleComponent as _ExampleComponent, ExampleComponentProps } from "../../framerx/ExampleComponent";
 
-## ⚠ Troubleshooting
+    // Create a new class component with the right tyoes
+    export class ExampleComponent extends React.Component<ExampleComponentProps, any> {
+      // Return the component contents in JSX
+      // https://reactjs.org/docs/introducing-jsx.html
+      render() {
+        return <_ExampleComponent {...this.props}/>;
+      }
 
-There is a build error when trying to build components that use features like `PropertyControls` or `ControlType` from the `framer` package. They currently only work during `npm run develop`. This error is caused during the server side rendering process.
+      // Add Framer UI for this component (in the properties panel)
+      // https://framer.com/learn/docs/components#code
+      static propertyControls: PropertyControls<ExampleComponentProps> = {
+      text: { type: ControlType.String, title: "Text" }
+      };
+    }
+
+    ```
+1. If you do any changes to your code component in `src/framerx/`, it will be reflected in the browser and Framer X at the same time.
 
 ## Deploy
 

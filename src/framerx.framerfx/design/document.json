@@ -27,9 +27,23 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
-            "deviceType" : null,
             "exportOptions" : [
-
+              {
+                "__class" : "ExportOptions",
+                "enabled" : true,
+                "nameExtension" : "",
+                "nameExtensionMode" : "Suffix",
+                "scale" : 1,
+                "type" : "png"
+              },
+              {
+                "__class" : "ExportOptions",
+                "enabled" : true,
+                "nameExtension" : "@2x",
+                "nameExtensionMode" : "Suffix",
+                "scale" : 2,
+                "type" : "png"
+              }
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
@@ -56,7 +70,6 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "eJAzzzzBT",
-            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
