@@ -59,7 +59,7 @@ Easy way get started with your first Framer X code component:
 
 1. Create a new component file in `src/framerx/` or copy the existing `ExampleComponent`.
 1. Import it in a page like `src/pages/index.tsx` and use it like an ordinary React component:
-    ```
+    ```js
     // src/pages/index.tsx
     
     import { ExampleComponent } from '../framerx/ExampleComponent';
@@ -80,11 +80,11 @@ Easy way get started with your first Framer X code component:
     }
     ```
 1. Import it in your Framer X code component `src/framerx.framerfx/code/ExampleComponent`:
-    ```
+    ```js
     // Import the component with types for props
     import { ExampleComponent as _ExampleComponent, ExampleComponentProps } from "../../framerx/ExampleComponent";
 
-    // Create a new class component with the right tyoes
+    // Create a new class component with the right types
     export class ExampleComponent extends React.Component<ExampleComponentProps, any> {
       // Return the component contents in JSX
       // https://reactjs.org/docs/introducing-jsx.html
